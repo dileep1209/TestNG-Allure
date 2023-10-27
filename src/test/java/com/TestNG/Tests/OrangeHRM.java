@@ -26,7 +26,7 @@ public class OrangeHRM {
 	@Parameters("browserName")
 	
 	@BeforeTest
-	public void InitialiseBrowser(String browserName) {
+	public void InitialiseBrowser(@Optional("chrome") String browserName) {
 		switch (browserName) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
