@@ -103,7 +103,7 @@ public class OrangeHRM {
 		  assertTrue(element.isDisplayed());
 		  //assertTrue(element.getText().startsWith("Paul"));
 		  //assertTrue(element.getText().endsWith("o L"));
-		  assertTrue(element.getText().startsWith("L"));
+		  assertTrue(element.getText().startsWith("Jyoti"));
 		  //System.out.println(element.isDisplayed());
 		  //System.out.println(element.getText());
 	  }
