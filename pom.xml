@@ -4,6 +4,7 @@
   <artifactId>PracticeTestNG</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>PracticeTestng</name>
+  <packaging>jar</packaging>
   <description>This is for practicing Testng-- Artifactid is PracticeTestNG and Name is PracticeTestng</description>
   
   <dependencies>
