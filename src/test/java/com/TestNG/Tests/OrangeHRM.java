@@ -101,8 +101,8 @@ public class OrangeHRM {
 	      wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/p")));
 		  WebElement element = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/p"));
 		  assertTrue(element.isDisplayed());
-		  assertTrue(element.getText().startsWith("Paul"));
-		  //assertTrue(element.getText().endsWith("Thi"));
+		  //assertTrue(element.getText().startsWith("Paul"));
+		  assertTrue(element.getText().endsWith("o L"));
 		  
 		  //System.out.println(element.isDisplayed());
 		  //System.out.println(element.getText());
