@@ -61,6 +61,15 @@
                 </archive>  
             </configuration>  
         </plugin>  
+		<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- You can specify a different version if needed -->
+            <configuration>
+                <source>1.8</source> <!-- Update this to a version compatible with your Java environment -->
+                <target>1.8</target> <!-- Update this to a version compatible with your Java environment -->
+            </configuration>
+        </plugin>
         </plugins>
     </build>
 </project>
